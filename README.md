@@ -26,7 +26,7 @@ The files contained are:
 4. App.java (/src/com/studyplanner/): Serves as the main entry point that initializes the primary stage, loads the master stylesheet, and navigate between the calendar and assignment  views.
 
 How to search for the codes? 
-1. Unzip demo.rar
+1. Unzip demo.rar OR download the normal demo folder
 2. open demo -> press src -> main -> java -> com -> studyplanner 
 
 Made using VSCode with Java, CSS, and JavaFX
