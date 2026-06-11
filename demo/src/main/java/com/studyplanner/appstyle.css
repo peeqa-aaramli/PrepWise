@@ -1,0 +1,299 @@
+/* ==========================================================================
+    GLOBAL & COMPOSTE CONTROLS
+   ========================================================================== */
+.date-picker {
+    -fx-font-size: 15px;
+    -fx-pref-width: 150px;
+    -fx-max-width: 150px;
+}
+.date-picker > .text-field {
+    -fx-text-fill: white;
+    -fx-background-color: #3b1954;
+    -fx-border-color: #3b1954;
+}
+
+/*SIDEBAR SECTIONS*/
+.sidebar {
+    -fx-background-color: linear-gradient(to bottom, #4b2c60,#562f71, #ebc0fc);
+    -fx-padding: 20 0 20 0;
+    -fx-pref-width: 200;
+}
+
+.menu-icon {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-cursor: hand;
+}
+.sidebar-menu-icon {
+    -fx-padding: 0 0 20 20;
+}
+.top-menu-icon {
+    -fx-padding: 0 20 0 0;
+}
+
+.sidebar-separator {
+    -fx-padding: 0 20 0 20;
+}
+
+
+/* NAVIGATION BUTTONS WITH STATES */
+.nav-btn {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+    -fx-background-color: transparent;
+}
+.nav-btn:hover {
+    -fx-background-color: #7b5296;
+}
+.nav-btn.active {
+    -fx-background-color: #341945;
+    -fx-border-width: 0 0 0 4;
+    -fx-border-color: white;
+}
+.nav-btn.active:hover {
+    /* Keeps active background unchanged when active element is hovered */
+    -fx-background-color: #4b2c60; 
+}
+
+/*TOP BAR */
+.top-bar {
+    -fx-background-color: #3b1954;
+    -fx-padding: 15 30 15 30;
+}
+
+.welcome-label {
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+/*DASHBOARD & BASIC ARCHITECTURE*/
+.dashboard-view {
+    -fx-background-color:linear-gradient(to bottom, #ebc0fc, #ebd4f4, #ffffff );
+    -fx-padding: 30;
+}
+
+.dashboard-title {
+    -fx-text-fill: #3b1954;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.dashboard-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: #ffffff;
+    -fx-border-color: transparent;
+}
+
+
+
+/*CARDS & CONTAINERS*/
+.base-card {
+    -fx-background-color: white;
+    -fx-background-radius: 15;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 10, 0, 0, 5);
+}
+
+.card-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3b1954;
+    -fx-padding: 0 0 10 0;
+}
+
+.column-title {
+    -fx-text-fill: #4b2c60;
+    -fx-font-size: 14px;
+}
+
+.purple-btn {
+    -fx-background-color: #6a4185;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.delete-btn {
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+
+/*FOCUS CARD STYLES*/
+
+.focus-card {
+    -fx-pref-width: 280;
+    -fx-alignment: top-center;
+}
+
+.timer-display {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3b1954;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-max-width: 180px;
+}
+
+.timer-btn {
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-border-color: #3b1954;
+    -fx-background-color: transparent;
+    -fx-text-fill: #3b1954;
+    -fx-cursor: hand;
+}
+
+/*DEADLINES SYSTEM*/
+.deadlines-inner-box {
+    -fx-background-color: #e5c4eb;
+    -fx-background-radius: 15;
+    -fx-padding: 30px;
+}
+
+.deadlines-grid {
+    -fx-hgap: 20;
+    -fx-vgap: 5;
+}
+
+.grid-header {
+    -fx-text-fill: #4b2c60;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 0 5 5;
+}
+
+.add-deadline-btn {
+    -fx-background-color: #6a4185;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+    -fx-padding: 5 10 5 10;
+}
+
+.row-combo-box {
+    -fx-background-color: transparent;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-padding: 0;
+}
+
+.row-delete-btn {
+    -fx-text-fill: red;
+    -fx-background-color: transparent;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+/*INTERACTIVE TABLE GRID INPUTS*/
+.grid-text-field {
+    -fx-background-color: transparent;
+    -fx-text-inner-color: #4b2c60;
+    -fx-font-size: 14px;
+    -fx-padding: 2 5 2 5;
+}
+.grid-text-field:focused {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+}
+
+/*ASSIGNMENTS VIEW SECTIONS*/
+.assignments-view {
+    -fx-background-color:linear-gradient(to bottom, #ebc0fc, #ebd4f4, #ffffff );
+    -fx-padding: 30;
+}
+
+.assignments-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3b1954;
+}
+
+.assignments-section-label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #6a4185;
+    -fx-font-size: 16px;
+}
+
+.subject-list-view {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #cda3d9;
+}
+
+/* COMPONENT SPECIFIC BUTTONS */
+.dark-purple-btn {
+    -fx-background-color: #3b1954;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.dark-purple-btn:hover {
+    -fx-background-color: #4b2c60; 
+}
+
+.danger-btn {
+    -fx-background-color: #8c2727;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.danger-btn:hover {
+    -fx-background-color: #a63232; 
+}
+
+/*CALENDAR VIEW SECTIONS*/
+.calendar-view {
+    -fx-background-color:linear-gradient(to bottom, #ebc0fc, #ebd4f4, #ffffff );
+    -fx-padding: 30;
+}
+
+.calendar-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #3b1954;
+}
+
+.calendar-month-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6a4185;
+}
+
+.calendar-day-header {
+    -fx-font-weight: bold;
+    -fx-text-fill: #3b1954;
+}
+
+.calendar-day-cell {
+    -fx-background-color: white;
+    -fx-border-color: #cda3d9;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.calendar-day-number {
+    -fx-font-weight: bold;
+    -fx-text-fill: #6a4185;
+}
+
+/* TARGETING THE TEXTAREAS WITHIN THE CELLS */
+.calendar-cell-textarea {
+    -fx-control-inner-background: white;
+    -fx-background-color: transparent;
+    -fx-font-size: 11px;
+}
+
+/* Removes standard borders and focus glow rings from inside the tiny text cells */
+.calendar-cell-textarea .content {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+.calendar-cell-textarea:focused .content {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}

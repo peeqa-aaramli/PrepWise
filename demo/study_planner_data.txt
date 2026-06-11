@@ -1,0 +1,14 @@
+[TASKS]
+Assignment 1
+Assignment 2
+Assignment 3
+[REMINDERS]
+Reminder 1
+Reminder 2
+Reminder 3
+[FINISHED_TASKS]
+[DEADLINES]
+• Deadline 1|1/1/2026|High
+• Deadline 2|1/1/2026|Low
+[ASSIGNMENTS]
+[CALENDAR]
