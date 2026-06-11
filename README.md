@@ -10,6 +10,7 @@ Group Members:
 5. NUR FARAH SHAKIRAH BINTI SHAHRUL AMIN 2517462
 
 Project Overview
+
 PrepWise is a lightweight, intuitive desktop study planner designed specifically to help students manage their academic workloads. Built entirely on the JavaFX framework, the application separates layout and business logic from visual aesthetics using an externalized CSS architecture.
 
 PrepWise provides students with structured environments to organize tasks by academic subjects, track pressing deadlines, and capture fleeting notes within an interactive calendar matrix.
